@@ -1,0 +1,17 @@
+﻿  Source.cpp
+d:\twitter bot assessment\project1\project1\source.cpp(66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(80): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(81): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(82): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(90): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(103): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(104): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(118): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(132): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(146): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(163): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(184): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Project1.vcxproj -> D:\Twitter Bot Assessment\Project1\x64\Debug\Project1.exe
