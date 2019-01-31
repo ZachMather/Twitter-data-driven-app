@@ -9,7 +9,19 @@ using namespace std;
 void menu() {
 	
 	
-	cout << "Please choose a number between 0 and 9." << endl;	cout << "0 - Will count the number of tweets in the file" << endl;	cout << "1 - Will count the number of tweets that mention money" << endl;	cout << "2 - Will count the number of tweets relation to politics" << endl;	cout << "3 - Will display all the tweets mentioning Paris" << endl;	cout << "4 - Will display all the tweets mentioning DreamWorks " << endl;	cout << "5 - Will display all the tweets mentioning Uber" << endl;	cout << "6 - Will display all the tweets to @realDonaldTrump" << endl;	cout << "7 - Will display all the tweets mentioning the word Vegan" << endl;	cout << "8 - Will display all the tweets with a word of phrase you enter" << endl;	cout << "9 - Will dislay the number of tweets with a word or phrase you enter" << endl;		// add more later
+	cout << "Please choose a number between 0 and 9." << endl;
+	cout << "0 - Will count the number of tweets in the file" << endl;
+	cout << "1 - Will count the number of tweets that mention money" << endl;
+	cout << "2 - Will count the number of tweets relation to politics" << endl;
+	cout << "3 - Will display all the tweets mentioning Paris" << endl;
+	cout << "4 - Will display all the tweets mentioning DreamWorks " << endl;
+	cout << "5 - Will display all the tweets mentioning Uber" << endl;
+	cout << "6 - Will display all the tweets to @realDonaldTrump" << endl;
+	cout << "7 - Will display all the tweets mentioning the word Vegan" << endl;
+	cout << "8 - Will display all the tweets with a word of phrase you enter" << endl;
+	cout << "9 - Will dislay the number of tweets with a word or phrase you enter" << endl;
+	
+	//all the options the user has.
 }
 
 
@@ -35,9 +47,11 @@ int calculation() {
 		cout << "please enter a number" << endl;
 		cin >> number;
 		cin.ignore(1000, '\n');
+
+		//makes sure the user inputs the correct data
 	}
 
-
+	
 
 	while (number < 0 || number > 9) {
 		cout << "Please enter a number between 0 and 9" << endl;
@@ -49,17 +63,25 @@ int calculation() {
 			cout << "please enter a number" << endl;
 			cin >> number;
 			cin.ignore(1000, '\n');
+			//makes sure the user inputs a number inside the values stated
 		}
 	}
+	
 	if (number >= 0 || number <= 9) {
 		if (number == 0) {
-			if (inFile.good()) {
+			if (inFile.good()) {// makes sure the file is readable
 				cout << "Reading the file... Please wait" << endl;
-				while (!inFile.eof()) {
+				while (!inFile.eof()) { //reads the fule to the end
 					getline(inFile, line);
 					tweetTotal++;
 
-				}				cout << "The total number of tweets in the file is " << tweetTotal << endl;			}		}		if (number == 1) {
+				}
+				cout << "The total number of tweets in the file is " << tweetTotal << endl;
+				//outpust the number of tweets
+			}
+		}
+		//reads the file for tweets relation to money 
+		if (number == 1) {
 			if (inFile.good()) {
 				cout << "Reading the file" << endl;
 				while (getline(inFile, line)) {
@@ -67,9 +89,15 @@ int calculation() {
 						tweetTotal++;
 
 
-					}				}				cout << "The number of tweets in the file that mention money is " << tweetTotal << endl;			}
-		}
+					}
 
+				}
+				cout << "The number of tweets in the file that mention money is " << tweetTotal << endl;
+			}
+
+
+		}
+		//reads the file for words relation to politics
 		if (number == 2) {
 			if (inFile.good()) {
 				cout << "Reading the file" << endl;
@@ -80,9 +108,14 @@ int calculation() {
 						|| (offset = line.find("prime minister", 0)) != string::npos || (offset = line.find("government", 0)) != string::npos || (offset = line.find("Government", 0)) != string::npos
 						|| (offset = line.find("NHS", 0)) != string::npos || (offset = line.find("Healthcare", 0)) != string::npos || (offset = line.find("Votes", 0)) != string::npos
 						|| (offset = line.find("War", 0)) != string::npos || (offset = line.find("war", 0)) != string::npos || (offset = line.find("Theresa May", 0)) != string::npos) {
-						tweetTotal++;					}				}				cout << "The  number of tweets in the file that mention polotocs is " << tweetTotal << endl;			}
+						tweetTotal++;
+						//checks all of the different words i choose that relate to politics
+					}
+				}
+				cout << "The  number of tweets in the file that mention polotocs is " << tweetTotal << endl;
+			}
 		}
-
+		//reads the file for all the tweets mentioning paris 
 		if (number == 3) {
 			if (inFile.good()) {
 				cout << "Reading the file" << endl;
@@ -182,7 +215,12 @@ int calculation() {
 				cout << "Reading the file" << endl;
 				while (getline(inFile, line)) {
 					if ((offset = line.find(Word, 0)) != string::npos) {
-						tweetTotal++;					}				}				cout << "The  number of tweets in the file that mention " << Word << " is " << tweetTotal << endl;			}
+						tweetTotal++;
+					}
+
+				}
+				cout << "The  number of tweets in the file that mention " << Word << " is " << tweetTotal << endl;
+			}
 		}
 
 	}
