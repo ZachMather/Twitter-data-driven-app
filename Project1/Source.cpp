@@ -124,11 +124,13 @@ int calculation() {
 						tweetTotal++;
 						cout << line << endl;
 						cout << " " << endl;
+						//instead of outputting the number of tweets this outputs each tweet 
+						// the extra cout is to space out the tweets making them easier to read
 					}
 				}
 			}
 		}
-
+		//reads the file for all tweets mentioning DreamWorks
 		if (number == 4) {
 			if (inFile.good()) {
 				cout << "Reading the File" << endl;
@@ -143,7 +145,7 @@ int calculation() {
 				}
 			}
 		}
-
+		//reads the file for all tweets mentioning Uber 
 		if (number == 5) {
 			if (inFile.good()) {
 				cout << "Reading the File" << endl;
@@ -157,7 +159,7 @@ int calculation() {
 				}
 			}
 		}
-
+		//scans for all the tweets that @ donald trump
 		if (number == 6) {
 			if (inFile.good()) {
 				cout << "Reading the File" << endl;
@@ -171,7 +173,7 @@ int calculation() {
 				}
 			}
 		}
-
+		// scans for all the tweets that mention Vegan
 		if (number == 7) {
 			if (inFile.good()) {
 				cout << "Reading the File" << endl;
@@ -185,9 +187,8 @@ int calculation() {
 				}
 			}
 		}
-
+		// allows the user to search for a specific word and find all the tweets that inlude that word
 		if (number == 8) {
-
 			cout << "Please enter a word or phrase you would like to search for" << endl;
 			getline(cin, Word);
 			if (inFile.good()) {
@@ -207,7 +208,7 @@ int calculation() {
 				}
 			}
 		}
-
+		//outouts the number of tweets that inculde the user specific word
 		if (number == 9) {
 			cout << "Please enter a word or phrase you would like to search for" << endl;
 			getline(cin, Word); // allows me to get a more than one word 

@@ -7,11 +7,13 @@ d:\twitter bot assessment\project1\project1\source.cpp(108): warning C4267: '=':
 d:\twitter bot assessment\project1\project1\source.cpp(109): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 d:\twitter bot assessment\project1\project1\source.cpp(110): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 d:\twitter bot assessment\project1\project1\source.cpp(123): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(136): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(137): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(151): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(165): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(179): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(196): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-d:\twitter bot assessment\project1\project1\source.cpp(217): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(138): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(139): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(153): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(167): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(181): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(197): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\twitter bot assessment\project1\project1\source.cpp(218): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
   Project1.vcxproj -> D:\Twitter Bot Assessment\Project1\x64\Debug\Project1.exe
